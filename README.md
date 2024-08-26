@@ -6,7 +6,7 @@
 
 ## 流媒体解锁检测脚本 -  [Streaming Unlock Test Script (EN)](https://github.com/xykt/RegionRestrictionCheck/blob/main/README_EN.md)
 
-**支持OS/Platform：CentOS 6+, Ubuntu 14.04+, Debian 8+, Alpine, MacOS, Android with Termux, [iOS](https://github.com/lmc999/RegionRestrictionCheck/wiki/iOS%E8%BF%90%E8%A1%8C%E8%84%9A%E6%9C%AC%E6%96%B9%E6%B3%95)**
+**支持OS/Platform：FreeBSD 9+, CentOS 6+, Ubuntu 14.04+, Debian 8+, Alpine, MacOS, Android with Termux, [iOS](https://github.com/lmc999/RegionRestrictionCheck/wiki/iOS%E8%BF%90%E8%A1%8C%E8%84%9A%E6%9C%AC%E6%96%B9%E6%B3%95)**
 
 ![截图](https://raw.githubusercontent.com/xykt/RegionRestrictionCheck/main/reference/IMG/ScreenShot.png)
 
@@ -37,6 +37,8 @@ bash <(curl -sL Media.Check.Place) -E
 ````
 
 ## 脚本更新
+
+2024/08/27 03:40 增加支持 FreeBSD
 
 2024/07/22 02:40 增加Google Gemini检测，修复Disney+解锁类型错误；因展示原版广告，改版运行次数同时计入原版
 
